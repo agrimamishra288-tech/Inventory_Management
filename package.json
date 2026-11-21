@@ -1,0 +1,30 @@
+{
+  "name": "inventory-data-management-api",
+  "version": "1.0.0",
+  "description": "Inventory and Data Management System REST API - Lab Assignment 3 built with Node.js, Express.js, Mongoose and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node src/seed/seed.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "inventory",
+    "rest-api",
+    "aggregation"
+  ],
+  "author": "Agrima Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
